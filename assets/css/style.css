@@ -12,10 +12,10 @@
     src: url('../fonts/Montserrat-SemiBold.ttf');
     font-family: 'Bold_Montserrat';
 }
-.img{
-    width: 63px;
-    height: 43px;
-}
+
+
+    
+
 
 body{
     padding: 100px 282px;
@@ -79,3 +79,17 @@ body{
     font-size: large;
     letter-spacing: 2px;
 }
+.border{
+    border:1px solid #fc5185;
+    /* width: 100px; */
+    border-left: 29px solid #fc5185;
+    padding-top: 320px;
+    margin-top: 40px;
+    background-color: #364f6b;
+   
+    
+}
+/* .border, 
+img{
+    margin: 0px 4px 5px 3px;
+} */
