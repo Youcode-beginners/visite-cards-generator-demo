@@ -12,15 +12,21 @@
     src: url('../fonts/Montserrat-SemiBold.ttf');
     font-family: 'Bold_Montserrat';
 }
+.img{
+    width: 63px;
+    height: 43px;
+}
 
 body{
     padding: 100px 282px;
     background-color: #f0f0f0;
+    border-left:1px solid #555 ;
 }
 
 .container{
+    border-left: 26px solid #fc5185 ;
     padding: 4rem;
-    margin-left: 20px;
+    margin-left: -11px;
     background-color: #364f6b;
     box-shadow: 10px 10px 5px #aaaaaa;
 }
@@ -30,12 +36,16 @@ body{
     color: #43dde6;
     text-transform: uppercase;
     font-size: x-large;
+    padding-left: 245px;
+    margin-top: -52px;
+    margin-bottom: 55px;
 }
 
 #num{
     /* border: 1px solid #555; */
     padding: 5px 0 5px 25px;
     margin-left: 246px;
+    margin-right: -40px ;
     border-radius: 32px;
     background-color: #fc5185;
     color: #f0f0f0;
@@ -48,6 +58,7 @@ body{
     /* border: 1px solid #555; */
     padding: 5px 0 5px 25px;
     margin-left: 246px;
+    margin-right: -40px ;
     border-radius: 32px;
     background-color: #fc5185;
     color: #f0f0f0;
@@ -60,6 +71,7 @@ body{
     /* border: 1px solid #555; */
     padding: 5px 0 5px 25px;
     margin-left: 246px;
+    margin-right: -40px;
     border-radius: 32px;
     background-color: #fc5185;
     color: #f0f0f0;
