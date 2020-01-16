@@ -1,0 +1,69 @@
+@font-face {
+    src: url('../fonts/Montserrat-Regular.ttf');
+    font-family: 'Regular_Montserrat';
+}
+
+@font-face {
+    src: url('../fonts/Montserrat-ExtraLight.ttf');
+    font-family: 'Light_Montserrat';
+}
+
+@font-face {
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+    font-family: 'Bold_Montserrat';
+}
+
+body{
+    padding: 100px 282px;
+    background-color: #f0f0f0;
+}
+
+.container{
+    padding: 4rem;
+    margin-left: 20px;
+    background-color: #364f6b;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+#name {
+    font-family: 'Bold_Montserrat', sans-serif;
+    color: #43dde6;
+    text-transform: uppercase;
+    font-size: x-large;
+}
+
+#num{
+    /* border: 1px solid #555; */
+    padding: 5px 0 5px 25px;
+    margin-left: 246px;
+    border-radius: 32px;
+    background-color: #fc5185;
+    color: #f0f0f0;
+    font-family: 'Light_Montserrat', sans-serif;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+#email{
+    /* border: 1px solid #555; */
+    padding: 5px 0 5px 25px;
+    margin-left: 246px;
+    border-radius: 32px;
+    background-color: #fc5185;
+    color: #f0f0f0;
+    font-family: 'Light_Montserrat', sans-serif;
+    font-size: large;
+    letter-spacing: 2px;
+}
+
+#site{
+    /* border: 1px solid #555; */
+    padding: 5px 0 5px 25px;
+    margin-left: 246px;
+    border-radius: 32px;
+    background-color: #fc5185;
+    color: #f0f0f0;
+    font-family: 'Light_Montserrat', sans-serif;
+    font-size: large;
+    letter-spacing: 2px;
+}
