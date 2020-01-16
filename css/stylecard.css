@@ -1,0 +1,75 @@
+@font-face {
+    src: url('../fonts/Montserrat-Regular.ttf');
+    font-family: 'Regular_Montserrat';
+}
+
+@font-face {
+    src: url('../fonts/Montserrat-ExtraLight.ttf');
+    font-family: 'Light_Montserrat';
+}
+
+@font-face {
+    src: url('../fonts/Montserrat-SemiBold.ttf');
+    font-family: 'Bold_Montserrat';
+}
+
+body{
+    border: 1px solid black;
+    width: 40% ;
+    background-color: rosybrown;
+}
+
+.titel, h1
+{
+    display: block;
+    font-size: 2em;
+    margin-block-start: -3.33em;
+    /* margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold; */
+}
+
+
+nav ul
+{
+    list-style-type: none;
+    display: block;
+    padding-left: 395px;
+}
+
+
+nav li
+{
+    margin-right: 15px;
+    padding: 0 10px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: red;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: black;
+    text-transform: uppercase;
+}
+span ul {
+    list-style-type: none;
+    display: block;
+}
+span li:hover
+{
+    color: black;
+    text-transform: uppercase;
+}
+span li
+{
+    font-size: 1.3em;
+    color: red;
+    padding-bottom: 3px;
+    text-decoration: none;
