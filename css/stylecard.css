@@ -13,63 +13,64 @@
     font-family: 'Bold_Montserrat';
 }
 
-body{
-    border: 1px solid black;
-    width: 40% ;
-    background-color: rosybrown;
+.container {
+    display: flex;
+    /* border: 1px solid black; */
+    bottom: 4px;
+    width: fit-content;
+    height: 12rem;
+    /* box-shadow: 20px 0px 4px 3px red; */
+    margin-left: 100px;
+    border-bottom-right-radius: 7px;
+}
+.section-left-1{
+    display: flex;
+    width: 12px;
+    background-color: red;
+    border-bottom-right-radius: 13px;
+    border-top-right-radius: 13px;
+    
 }
 
-.titel, h1
-{
-    display: block;
-    font-size: 2em;
-    margin-block-start: -3.33em;
-    /* margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold; */
+.section-right{
+    display: flex;
+    background-color: black;
+    width: 257px;
+    color: white;
+
 }
 
 
-nav ul
-{
-    list-style-type: none;
-    display: block;
-    padding-left: 395px;
+.section-left{
+    display: flex;
+    background-color: white;
+    width: 155px;
+    align-items: center;
+}
+
+ ul{
+     /* display: flex; */
+    list-style: none;
+    margin: 102px 0px 0px 0px;
+    
+} 
+
+h1{
+    align-items: center;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 0px -137px;
+    border: 1px solid red;
+    border-top-left-radius: 14px;
+    padding: 3px 0px 0px 91px;
+    background-color: red;
+ 
 }
 
 
-nav li
-{
-    margin-right: 15px;
-    padding: 0 10px;
-}
 
-nav a
-{
-    font-size: 1.3em;
-    color: red;
-    padding-bottom: 3px;
-    text-decoration: none;
-}
 
-nav a:hover
-{
-    color: black;
-    text-transform: uppercase;
-}
-span ul {
-    list-style-type: none;
-    display: block;
-}
-span li:hover
-{
-    color: black;
-    text-transform: uppercase;
-}
-span li
-{
-    font-size: 1.3em;
-    color: red;
-    padding-bottom: 3px;
-    text-decoration: none;
+
