@@ -69,6 +69,15 @@ li{
     background-color: red;
  
 }
+.border{
+    display: flex;
+    /* border: 1px solid #555; */
+    width: 423px;
+    height: 12rem;
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: red;
+}
 
 
 
