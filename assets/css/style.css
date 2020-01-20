@@ -1,0 +1,108 @@
+@font-face {
+    src: url('../fonts/Montserrat-Regular.ttf');
+    font-family: 'Regular-Montserrat';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    height: 50%;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+.left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f3cf7a;
+    border-left: 1.5rem solid #be6a15;
+    width: 25vw;
+}
+
+.left-section img {
+    height: 70%;
+    width: 70%;
+    border-radius: 30%;
+    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+.right-section {
+    background-color: #6e3b3b;
+    color: #f3e5c3;
+    font-family: 'Regular-Montserrat', sans-serif;
+    width: fit-content;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.heading-main {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom:1px solid #be6a15 ;
+    font-size: 1.5rem; 
+    font-weight: 800; 
+}
+
+.heading-sub {
+    font-size: 0.5;
+    font-weight: 400;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 20vh;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content img {
+    width: 30px ;
+    height: 30px;
+    margin-right: 15px;
+    background-color: #be6a15;
+    padding: 3px;
+    border-radius: 50%;
+    box-shadow: -3px -3px 10px #835e5e, 3px 3px 5px rgba(94, 104, 121, .288);
+}
+
+.content .phone_number,
+.content .email,
+.content .site {
+    display: flex;
+}
+
+.content .phone_number span,
+.content .email span,
+.content .site span{
+    padding-top: 5px;
+    letter-spacing: 2px;
+    font-size: medium;
+}
